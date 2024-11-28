@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu e Você</title>
+    <link rel="icon" type="image/png" href="https://media.istockphoto.com/id/1439973042/pt/vetorial/red-heart-flat-icon-the-symbol-of-love-vector-illustration.jpg?s=612x612&w=0&k=20&c=Xsc5sdBDPWYU2XwQTGQ19Ro3fPv9OxdId3AAIRdmcw4=">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="Imagem do WhatsApp de 2024-11-09 à(s) 22.25.07_bd3e9150.jpg" alt="Foto do casal">
+            <span class="image-count">1 of 1</span>
+        </div>
+        <h1 class="couple-name">João e Fabiana</h1>
+        <p class="subtext">Amar você é tão fácil quanto respirar. É um sentimento que chegou de mansinho, mas que tomou conta da minha alma e hoje não consigo imaginar uma vida sem você. Eu te amo</p>
+        <p class="time-title">Construindo nossa história há:</p>
+
+        <!-- Seção de contagem de tempo -->
+        <div class="time-counter">
+            <div class="time-box"><span id="years">00</span><p>anos</p></div>
+            <div class="time-box"><span id="months">00</span><p>meses</p></div>
+            <div class="time-box"><span id="days">00</span><p>dias</p></div>
+            <div class="time-box"><span id="hours">00</span><p>horas</p></div>
+            <div class="time-box"><span id="minutes">00</span><p>minutos</p></div>
+            <div class="time-box"><span id="seconds">00</span><p>segundos</p></div>
+        </div>
+
+        
+
+        <!-- Player de áudio -->
+        <div class="audio-player">
+            <button id="play-pause-btn">▶️</button>
+            <input type="range" id="volume-slider" min="0" max="100" value="50">
+        </div>
+        <div id="hidden-player" style="display: none;"></div>
+    </div>
+
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+
+    <audio id="audio-player" controls>
+        <source src="musica.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
