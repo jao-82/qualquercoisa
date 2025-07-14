@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(updateTime, 1000);
   updateTime();
 });
-
+// Atualiza o contador imediatamente ao carregar a página
 
     // Bloco do player de áudio
     const audioPlayer = document.getElementById('audio-player');
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Inicializa o volume com o valor atual do slider
     audioPlayer.volume = volumeSlider.value / 100;
-});
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const heartsContainer = document.createElement("div");
